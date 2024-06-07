@@ -12,7 +12,7 @@ The Toy Robot Simulator API simulates a toy robot moving on a square tabletop. T
 
 ```bash
   git clone https://github.com/Anjani009/ToyRobot
-  cd ToyRobotAPI
+  cd ToyRobot
 ```
 
 2. Install dependencies:
