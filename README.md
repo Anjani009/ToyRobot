@@ -42,27 +42,27 @@ Open your browser and navigate to https://localhost:5001/swagger or http://local
   }
   ```
 - Responses
-  - 200 OK: Robot placed successfully.
+  - 200 OK: Robot placed.
   - 400 Bad Request: Invalid input.
 
 ## Move the Robot
 - Endpoint: POST /ToyRobot/move
 - Description: Moves the toy robot one unit forward in the direction it is currently facing.
 - Responses:
-  - 200 OK: Robot moved successfully.
-  - 400 Bad Request: Robot cannot move out of bounds.
+  - 200 OK: Robot moved.
+
 
 ## Turn the Robot Left
 - Endpoint: POST /ToyRobot/left
 - Description: Rotates the toy robot 90 degrees to the left.
 - Responses:
-  - 200 OK: Robot turned left successfully.
+  - 200 OK: Robot turned left.
 
 ## Turn the Robot Right
 - Endpoint: POST /ToyRobot/right
 - Description: Rotates the toy robot 90 degrees to the right.
 - Responses:
-  - 200 OK: Robot turned right successfully.
+  - 200 OK: Robot turned right.
 
 ## Report the Robot's Position
 - Endpoint: GET /ToyRobot/report
