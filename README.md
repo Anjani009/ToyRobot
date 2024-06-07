@@ -27,7 +27,7 @@ dotnet run
 ```
 Access Swagger UI:
 
-Open your browser and navigate to https://localhost:5001/swagger or http://localhost:5000/swagger to interact with the API endpoints using Swagger UI.
+Open your browser and navigate to https://localhost:7041/swagger or http://localhost:5041/swagger to interact with the API endpoints using Swagger UI.
 
 # API Endpoints
 ## Place the Robot
